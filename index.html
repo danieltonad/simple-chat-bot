@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="googlebot">
+    <title>CSC 442</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap css -->
+    <link rel="stylesheet" media="screen" href="./css/bootstrap.min.css">
+
+    <!--Font-awesome -->
+    <script src="./js/all.js"></script>
+
+    <!-- Font css -->
+    <link rel="stylesheet" media="screen" href="./css/font.css">
+
+    <!--index css-->
+    <link media="screen" rel="stylesheet" media="screen" href="./css/index.css">
+
+
+    <!-- ico png here  -->
+    <link rel="shortcut icon" href="images/ico.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="col-xl-4 col-lg-4 col-md-8 col-sm-10 col-10 mx-auto my-5 mt-5 " id="chat-box">
+            <div class="comtainer-fluid" id="chat-box-head">
+                Chat Bot
+            </div>
+
+            <!-- MSG'S -->
+            <div class="container-fluid py-2 px-2" id="chat-box-body">
+                <!-- bot -->
+                <div class="col-12 " id="bot">
+                    <span><i class="fa fa-robot fa-1x" id="ico"></i> </span>
+                    <span id="bot-msg">
+                            Welcome to Lagos State University Computer Science department bot
+      
+                    </span>
+                </div>
+
+                <!-- bot -->
+                <div class="col-12 " id="bot">
+                    <span><i class="fa fa-robot fa-1x" id="ico"></i> </span>
+                    <span id="bot-msg">
+                            How may i help you?
+      
+                    </span>
+                </div>
+
+
+                
+
+
+            </div>
+
+            <div class="container-fluid" id="chat-box-msg">
+                <div class="row">
+                    <div class="col-9 m-0">
+                        <div id="msg-box">               
+                            <textarea name="" id="msg" cols="30" rows="1" placeholder="Type message ..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-3 m-0 p-0">
+                        <div id="msg-box">
+                            <button id="push-msg">send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div style="letter-spacing: 1.4px; position: fixed; bottom: 0; color:brown" class="text-lead"> Developed by solarin daniel </div>
+
+    <script src="./js/axios.js"></script>
+    <script src="./js/jquery3-5-1.js"></script>
+    <script src="./js/msg-push.js"></script>
+
+
+</body>
+
+</html>

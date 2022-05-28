@@ -1,0 +1,134 @@
+html, body{
+    margin: 0; padding: 0;
+    background-color: #E9DFDF;
+}
+
+#chat-box{
+    /* border: 1px solid black; */
+    margin: 0; padding: 0;
+    overflow: hidden;
+}
+
+#chat-box-head{
+    background-color: #F85E54;
+    padding: .45rem .7rem;
+    border-radius: 5px 5px 0 0;
+    color: #fff2ff;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+#chat-box-body{
+    background-color: #ffffff;
+    border: solid #F85E54;
+    border-width: 0 1px 0 1px;
+    height:30rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-margin: 2px;
+    transition: 3s ease-in all;
+}
+
+/* Scroll bar animie */
+::-webkit-scrollbar{
+ width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #E1E1E1;
+    transition: 2s all;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d32484;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #F85E54;
+    cursor: pointer;
+}
+
+
+#chat-box-msg{
+    background-color: #F85E54;
+    padding: .355rem .7rem;
+    border-radius: 0 0 5px 5px;
+    color: #fff2ff;
+    font-size: 1.15rem;
+    transition: 3s;
+}
+
+/* bot message */
+#bot {
+    text-align: left;
+    margin-left: -.55rem;
+}
+
+#bot-msg {
+    background-color: #a0281f;
+    margin: 5px 0px; padding: .4rem .6rem;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    word-break:keep-all;
+}
+
+#bot-msg a {
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+span #ico{
+    color: #96004B;
+}
+
+/* bot message */
+#user {
+    text-align: right;
+    margin-right: -2rem;
+}
+
+#user-msg{
+    background-color: #707070;
+    margin: 5px 0px; padding: .3rem .4rem;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+}
+
+
+
+#msg-box textarea{
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    width: 100%; padding: .35rem;
+}
+
+#msg-box button {
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    width: 75%; padding: .35rem .6rem;
+    letter-spacing: 1.12px;
+    transition: 1.2s;
+    background-color: #041d44;
+    border: 1px solid transparent;
+    color: white; 
+}
+
+#msg-box button:hover{
+    cursor: pointer;
+    background-color: #031972;
+    border: 1px solid #96004B;
+}
+
+
+
+@media  screen and (min-width: 700px) and (max-width: 1000px) {
+
+        /* #msg-box button {
+            width: 75% !important;
+        } */
+}
